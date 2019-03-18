@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#4d0000"
+    android:weightSum="1"
+    android:layout_height="100dp">
+
+
+    <TextView
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:id="@+id/MenuName"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textSize="24sp"
+        android:layout_width="150dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:id="@+id/count"
+        android:textSize="18sp"
+        android:layout_width="70dp"
+        android:gravity="right" />
+
+    <Button
+        android:text="-"
+        android:layout_height="50dp"
+        android:background="@drawable/press"
+        android:textColor="#ffffff"
+        android:id="@+id/div"
+        android:textSize="36sp"
+        android:layout_width="50dp" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/press"
+        android:text="+"
+        android:textColor="#ffffff"
+        android:textSize="36sp" />
+
+</LinearLayout>
